@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.promo {
+  width: 1600px;
+  height: 78px;
+  background-color: #fff;
+  position: relative;
+}
+.promo .container {
+  width: 1320px;
+  height: 78px;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+}
+.promo .container .logo_text {
+  margin-top: 30px;
+  margin-bottom: 28px;
+}
+.promo .container .nav {
+  margin-left: 680px;
+  width: 368px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.promo .container .nav > a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #3C3C3C;
+}
+.promo .container .call_btn {
+  display: flex;
+  align-items: center;
+  margin-left: 39px;
+}
+.promo .container .call_btn .btn_wrapper {
+  width: 160px;
+  height: 46px;
+  border: 1px solid #B57AD2;
+  box-sizing: border-box;
+  border-radius: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.promo .container .call_btn .btn_wrapper > a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #B57AD2;
+}
+.start {
+  width: 1600px;
+  height: 680px;
+  background: url("images/people.png") right no-repeat;
+  position: relative;
+}
+.start .container {
+  width: 1320px;
+  height: 78px;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+}
+.start .container .start_wrapper {
+  margin: 199px 0 0 0;
+}
+.start .container .start_wrapper > h2 {
+  width: 650px;
+  color: #3C3C3C;
+  font-size: 40px;
+  line-height: 42px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.start .container .start_wrapper > h3 {
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3C3C3C;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: normal;
+}
+.start .container .start_wrapper .start_btn {
+  margin-top: 83px;
+  display: flex;
+  align-items: center;
+}
+.start .container .start_wrapper .start_btn .btn_wrapper {
+  width: 202px;
+  height: 63px;
+  background: #B57AD2;
+  border-radius: 31.5422px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.start .container .start_wrapper .start_btn .btn_wrapper > a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: white;
+}
+.achievements {
+  width: 1630px;
+  height: 140.5px;
+  background: url("images/Achievements.png") center no-repeat;
+  position: relative;
+}
