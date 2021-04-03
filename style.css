@@ -110,3 +110,77 @@
   background: url("images/Achievements.png") center no-repeat;
   position: relative;
 }
+.service {
+  position: relative;
+  width: 1600px;
+  height: 824px;
+}
+.service .container {
+  width: 1320px;
+  position: relative;
+  margin: 0 auto;
+}
+.service .container > h2 {
+  margin-top: 30.5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  line-height: 56px;
+  color: #3C3C3C;
+  text-align: center;
+}
+.service .container > h3 {
+  margin-top: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 34px;
+  color: #3C3C3C;
+  text-align: center;
+}
+.service .container .service_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 36px;
+}
+.service .container .service_wrapper .service_item {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  height: 684px;
+}
+.service .container .service_wrapper .service_item .service_text {
+  max-width: 495px;
+  margin-top: 28px;
+  margin-left: 25px;
+  font-size: 22px;
+  line-height: 26px;
+  color: #3C3C3C;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.service .container .service_wrapper .service_item .service_list {
+  margin-top: 21px;
+  margin-left: 45px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #3C3C3C;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.service .container .service_wrapper .service_item li::marker {
+  color: #B57AD2;
+  font-size: 20px;
+}
+.service .container .service_wrapper .service_item li {
+  margin-top: 20px;
+}
+.service .container .service_wrapper .service_item .read_more {
+  margin-top: 23px;
+  margin-left: 25px;
+  background-color: #B57AD2;
+  color: #fff;
+  width: 202px;
+  height: 63px;
+  border-radius: 31.5422px;
+  font-size: 18px;
+  line-height: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+}
