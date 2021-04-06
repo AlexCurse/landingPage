@@ -184,3 +184,183 @@
   font-family: Arial, Helvetica, sans-serif;
   border: none;
 }
+.procress {
+  position: relative;
+  width: 1600px;
+  height: 742px;
+}
+.procress .container {
+  width: 1093px;
+  position: relative;
+  margin: 0 auto;
+}
+.procress .container > h2 {
+  margin-top: 105px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  line-height: 56px;
+  color: #3C3C3C;
+  text-align: center;
+  letter-spacing: -0.285714px;
+}
+.procress .container > h3 {
+  margin-top: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 34px;
+  color: #3C3C3C;
+  text-align: center;
+}
+.procress .container .procress_wrapper {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(180deg, rgba(181, 122, 210, 0.776388) 0%, rgba(255, 244, 229, 0.0001) 136.98%), #F9F9F9;
+  margin-top: 44px;
+}
+.procress .container .procress_wrapper .title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 23px;
+  color: #3C3C3C;
+  text-align: center;
+  margin-top: 120px;
+}
+.procress .container .procress_wrapper .descr {
+  font-size: 16px;
+  line-height: 19px;
+  color: #3C3C3C;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 295px;
+  margin-top: 36px;
+  margin-left: 25px;
+}
+.procress .container .procress_wrapper .image {
+  width: 100%;
+  text-align: center;
+  margin-top: 115px;
+}
+.sause {
+  position: relative;
+  width: 1600px;
+  height: 728px;
+}
+.sause .container {
+  width: 1099px;
+  position: relative;
+  margin: 0 auto;
+}
+.sause .container > h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  line-height: 56px;
+  color: #2B292D;
+  text-align: center;
+  margin-top: 130px;
+}
+.sause .container > h3 {
+  margin-top: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 34px;
+  color: #3C3C3C;
+  text-align: center;
+}
+.sause .container .sause_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.sause .container .sause_wrapper .sause_item {
+  margin-top: 71px;
+}
+.sause .container .sause_wrapper .sause_item .img {
+  text-align: center;
+}
+.sause .container .sause_wrapper .sause_item .descr {
+  width: 300px;
+  margin-top: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3C3C3C;
+}
+.sause .container .sause_wrapper .sause_item .title {
+  margin-top: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  color: #3C3C3C;
+  font-weight: bold;
+}
+.sause .container .start {
+  margin-top: 23px;
+  margin-left: 25px;
+  background-color: #B57AD2;
+  color: #fff;
+  width: 202px;
+  height: 63px;
+  border-radius: 31.5422px;
+  font-size: 18px;
+  line-height: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 65px;
+}
+.message {
+  background: linear-gradient(180deg, rgba(255, 244, 229, 0.0001) 0%, rgba(181, 122, 210, 0.776388) 136.98%), linear-gradient(179.61deg, #F9F4FC 0.33%, rgba(255, 244, 229, 0.0001) 99.67%);
+  border-radius: 6px;
+  position: relative;
+  width: 1600px;
+  height: 773px;
+}
+.message .container {
+  width: 1320px;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.message .container .img {
+  margin-top: 117px;
+}
+.message .container .descr {
+  width: 636px;
+  margin-top: 149px;
+}
+.message .container .descr .title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 56px;
+  line-height: 56px;
+  color: #3C3C3C;
+  font-weight: bold;
+}
+.message .container .descr .message_text {
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 34px;
+  color: #3C3C3C;
+  font-weight: normal;
+}
+.message .container .descr .author {
+  margin-top: 80px;
+  width: 73px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #3C3C3C;
+  font-weight: normal;
+}
+.message .container .descr .prof {
+  margin-top: 16px;
+  width: 180px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #3C3C3C;
+  font-weight: normal;
+}
